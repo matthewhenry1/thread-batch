@@ -1,3 +1,6 @@
+# Thread
+Python3 mechanism to determine number of pages required for an API based on a total, page size, and max thread count
+
 ```import math
 
 # calc num queries
