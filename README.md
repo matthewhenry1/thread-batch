@@ -1,6 +1,6 @@
 # Thread & Batch
 
-Python3 mechanism for splitting a count in threads or batches.
+Python3 & JavaScript mechanism for splitting a count in threads or batches.
 
 ## Batch
 
