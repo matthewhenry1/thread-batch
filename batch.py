@@ -15,7 +15,7 @@ for i in range(num_queries):
 print(pages)
 
 # determine batch size
-batch_size = 40
+batch_size = 2
 print('batch_size: ' + str(batch_size))
 
 for n in range(num_queries):
