@@ -6,7 +6,8 @@ Python3 mechanism for splitting a count in threads or batches.
 
 This script will output `n` number of rows with a fixed number of batches.
 
-```import math
+```
+import math
 
 # calc num queries
 total = 9999
@@ -38,7 +39,8 @@ for n in range(num_queries):
 
 This script will output a fixed number of rows with `n` number of batches.
 
-```import math
+```
+import math
 
 # calc num queries
 total = 9999
