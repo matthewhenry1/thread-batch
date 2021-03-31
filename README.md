@@ -4,6 +4,8 @@ Python3 mechanism for splitting a count in threads or batches.
 
 ## Batch
 
+This script will output `n` number of rows with a fixed of batches associated, e.g.:
+
 ```import math
 
 # calc num queries
@@ -21,7 +23,7 @@ for i in range(num_queries):
 print(pages)
 
 # determine batch size
-batch_size = 40
+batch_size = 2
 print('batch_size: ' + str(batch_size))
 
 for n in range(num_queries):
@@ -33,6 +35,8 @@ for n in range(num_queries):
 ```
 
 ## Thread
+
+This script will output a fixed number of rows with n number of batches associated evenly distributed, e.g.:
 
 ```import math
 
