@@ -4,7 +4,7 @@ Python3 mechanism for splitting a count in threads or batches.
 
 ## Batch
 
-This script will output `n` number of rows with a fixed of batches associated, e.g.:
+This script will output `n` number of rows with a fixed number of batches.
 
 ```import math
 
@@ -36,7 +36,7 @@ for n in range(num_queries):
 
 ## Thread
 
-This script will output a fixed number of rows with n number of batches associated evenly distributed, e.g.:
+This script will output a fixed number of rows with `n` number of batches.
 
 ```import math
 
